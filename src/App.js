@@ -5,11 +5,12 @@ const App=()=>{
         <Fade >
         <h1>App Components</h1>
 
+
         </Fade>
       
         </>
     )
-    
+
 }
 
 export default App;
