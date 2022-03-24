@@ -76,6 +76,27 @@ Thus a legal professional does not need to waste time doing routine contract che
             </div>
             
             </div>
+
+
+            </div>
+            <div className="keyF">
+                
+                <div className="row ">
+
+                    
+                <div className="col">
+                        <h1>KEY FEATURES</h1>
+                </div>
+
+
+                <div className="col my-2">
+                <Cards img='s.PNG' h='Legal Professionals and Experts' checks1='Checks Contract faster'  checks2='Reduce Contract Risks' checks3='Improve work efficiency ' />
+                <Cards img='s.PNG' h='Legal Professionals and Experts' checks1='Checks Contract faster'  checks2='Reduce Contract Risks' checks3='Improve work efficiency ' />
+                </div>
+                
+                
+                
+                </div>
         </div>
     
     
