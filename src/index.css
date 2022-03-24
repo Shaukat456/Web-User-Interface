@@ -1,5 +1,6 @@
 .hcomp{
     border: 2px solid rgb(185, 185, 185);
+    /* font-family: 'mon'; */
     font-size: 4.6em;
     line-height: 20px;
 }
@@ -7,7 +8,8 @@
     font-size: 8rem;
 }
 body{
-    background-color: rgb(41, 47, 75);
+    background-color: #091a36;;
+    
 }
 
 .intro{
@@ -87,4 +89,15 @@ body{
   
   .slider.round:before {
     border-radius: 50%;
+  }
+  .kaih{
+    font-size: 20rem;
+  }
+  .KAI{
+    font-size: 2.08em;
+  }
+
+  .ai{
+   color: rgba(0, 0, 0, 0.5);
+
   }
