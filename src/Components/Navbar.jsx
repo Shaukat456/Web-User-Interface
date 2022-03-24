@@ -3,7 +3,7 @@ function Navbar() {
          <>
 
         <div className="row  ">
-            <div className="col-12  d-flex s">
+            <div className="col-12  d-flex ">
 
 
             <div className="col bg-light p-3 ">
@@ -36,6 +36,12 @@ function Navbar() {
       </li>
     </ul>
   </div>
+ {/* <button> */}
+ <label class="switch">
+  <input type="checkbox"/>
+  <span class="slider round"></span>
+</label>
+ {/* </button> */}
 </nav>
             </div>
 
