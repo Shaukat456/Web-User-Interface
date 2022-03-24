@@ -101,3 +101,13 @@ body{
    color: rgba(0, 0, 0, 0.5);
 
   }
+  .card{
+    background-color: #2196F3;
+  }
+
+  .cardds{
+    overflow-x: scroll;
+    /* width: 100vw; */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }

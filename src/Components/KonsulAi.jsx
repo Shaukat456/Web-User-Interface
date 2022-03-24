@@ -1,3 +1,5 @@
+import Cards from "./Cards";
+
 function KonsulAi() {
     return (  <>
     
@@ -9,9 +11,9 @@ function KonsulAi() {
 
 
             </div>
-            <div className="row-cols-2 d-flex text-light py-5 ">
+            <div className="row-cols-2 d-flex text-light my-5 ">
 
-            <div className="col-6 py-5">
+            <div className="col-6 my-5">
            <h1>DESIGN</h1>
 
 
@@ -50,6 +52,27 @@ Thus a legal professional does not need to waste time doing routine contract che
                 </div>
 
 
+                <div className="cardds row-auto d-flex my-5  ">
+                    {/* <div className="col"> */}
+
+
+                <Cards img='s.PNG' h='Legal Professionals and Experts' checks1='Checks Contract faster'  checks2='Reduce Contract Risks' checks3='Improve work efficiency ' />
+
+               
+
+                <Cards img='s.PNG' h='Legal Professionals and Experts' checks1='Checks Contract faster'  checks2='Reduce Contract Risks' checks3='Improve work efficiency ' />
+
+                <Cards img='s.PNG' h='Legal Professionals and Experts' checks1='Checks Contract faster'  checks2='Reduce Contract Risks' checks3='Improve work efficiency ' />
+
+               
+                    {/* </div> */}
+
+             
+
+               
+
+
+                </div>
             </div>
             
             </div>
