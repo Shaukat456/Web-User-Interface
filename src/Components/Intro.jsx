@@ -1,4 +1,7 @@
 function Intro() {
+   
+
+
     return (
         <>
         <div className="row">
@@ -10,12 +13,9 @@ Data Science platform to help professionals
 make their job easier and more efficient.
 Our team consists of experts in Machine
 Learning
-
 , Natural Language Processing
-
 ,
 Linguistics
-
 and Software Engineering
 
 .
