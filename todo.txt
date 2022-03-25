@@ -6,3 +6,7 @@ PLATFORM MODULES
 OUR TEAM
 FOOTER
 CONTACT 
+
+Fonts 
+break heading into 3 parts 
+navbar transparent 

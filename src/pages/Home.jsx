@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import {Fade, Slide} from 'react-reveal'
 import '../index.css'
 import KonsulAi from "../Components/KonsulAi";
+import Footer from "../Components/Footer";
 
 
 
@@ -49,6 +50,7 @@ function Home() {
             <KonsulAi/>
             {/* <Intro/> */}
             </Fade>
+            <Footer/>
 
         </div>
     
