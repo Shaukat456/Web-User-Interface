@@ -53,19 +53,52 @@ Thus a legal professional does not need to waste time doing routine contract che
 
 
                 <div className="cardds row-auto d-flex my-5  ">
-                    {/* <div className="col"> */}
+                    <div className="col-6">
 
 
-                <Cards img='s.PNG' h='Legal Professionals and Experts' checks1='Checks Contract faster'  checks2='Reduce Contract Risks' checks3='Improve work efficiency ' />
+                <Cards
+                 img='https://uploads-ssl.webflow.com/61221299a58304715ac08aef/612248f852b92774c105dcc7_2.svg' h='Legal Professionals and Experts'
+                  checks1='Checks Contract faster' 
+                   checks2='Reduce Contract Risks'
+                   
+                   checks3='Improve work efficiency ' 
+                   
+                    img1='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                img2='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                img3='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                   
+                   
+                   />
 
                
 
-                <Cards img='s.PNG' h='Legal Professionals and Experts' checks1='Checks Contract faster'  checks2='Reduce Contract Risks' checks3='Improve work efficiency ' />
+                <Cards img='https://uploads-ssl.webflow.com/61221299a58304715ac08aef/612246b4e6fa2a5e7da3089a_02.svg'
+                 h='Legal Professionals and Experts' 
+                 checks1='Checks Contract faster' 
+                 checks2='Reduce Contract Risks'
+                  checks3='Improve work efficiency '
+                  img1='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                  img2='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                  img3='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                  
+                  
+                  
+                  
+                  />
 
-                <Cards img='s.PNG' h='Legal Professionals and Experts' checks1='Checks Contract faster'  checks2='Reduce Contract Risks' checks3='Improve work efficiency ' />
+                <Cards 
+                img='https://uploads-ssl.webflow.com/61221299a58304715ac08aef/612246d2bbe7a1e61f32c02c_406.svg' h='Legal Professionals and Experts' 
+                checks1='Checks Contract faster' 
+                checks2='Reduce Contract Risks' 
+                checks3='Improve work efficiency '
+                img1='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                img2='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                img3='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                
+                />
 
                
-                    {/* </div> */}
+                    </div>
 
              
 
@@ -79,7 +112,7 @@ Thus a legal professional does not need to waste time doing routine contract che
 
 
             </div>
-            <div className="keyF">
+            <div className="keyF ">
                 
                 <div className="row ">
 
@@ -88,10 +121,67 @@ Thus a legal professional does not need to waste time doing routine contract che
                         <h1>KEY FEATURES</h1>
                 </div>
 
+                
+                <div className="col-6  my-2">
 
-                <div className="col my-2">
-                <Cards img='s.PNG' h='Legal Professionals and Experts' checks1='Checks Contract faster'  checks2='Reduce Contract Risks' checks3='Improve work efficiency ' />
-                <Cards img='s.PNG' h='Legal Professionals and Experts' checks1='Checks Contract faster'  checks2='Reduce Contract Risks' checks3='Improve work efficiency ' />
+                    <div className="row">
+
+                    <div className="col-6 my-3">
+                    <Cards 
+                img='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61225a77e0bf2677a059d193_123.svg' h='Legal Professionals and Experts' 
+                checks1='Checks Contract faster' 
+                checks2='Reduce Contract Risks' 
+                checks3='Improve work efficiency '
+                img1='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                img2='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                img3='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                
+                />
+                 
+                    </div>
+                    <div className="col-6 my-3">
+                    <Cards 
+                img='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61225a77e0bf2677a059d193_123.svg' h='Legal Professionals and Experts' 
+                checks1='Checks Contract faster' 
+                checks2='Reduce Contract Risks' 
+                checks3='Improve work efficiency '
+                img1='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                img2='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                img3='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                
+                />
+                 
+                    </div>
+                    <div className="col-6 my-3">
+                    <Cards 
+                img='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61225a77e0bf2677a059d193_123.svg' h='Legal Professionals and Experts' 
+                checks1='Checks Contract faster' 
+                checks2='Reduce Contract Risks' 
+                checks3='Improve work efficiency '
+                img1='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                img2='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                img3='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                
+                />
+                 
+                    </div>
+                    <div className="col-6 my-3">
+                    <Cards 
+                img='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61225a77e0bf2677a059d193_123.svg' h='Legal Professionals and Experts' 
+                checks1='Checks Contract faster' 
+                checks2='Reduce Contract Risks' 
+                checks3='Improve work efficiency '
+                img1='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                img2='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                img3='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/6122496b6eeeddf85d8aaf2f_Union.svg'
+                
+                />
+                 
+                    </div>
+                
+                </div>
+
+
                 </div>
                 
                 
