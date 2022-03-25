@@ -117,7 +117,7 @@ Thus a legal professional does not need to waste time doing routine contract che
                 <div className="row ">
 
                     
-                <div className="col">
+                <div className="col text-light">
                         <h1>KEY FEATURES</h1>
                 </div>
 
@@ -141,7 +141,7 @@ Thus a legal professional does not need to waste time doing routine contract che
                     </div>
                     <div className="col-6 my-3">
                     <Cards 
-                img='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61225a77e0bf2677a059d193_123.svg' h='Legal Professionals and Experts' 
+                img='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61225a77411cba7f96f75f87_noun_abstract_1750748%201.svg' h='Legal Professionals and Experts' 
                 checks1='Checks Contract faster' 
                 checks2='Reduce Contract Risks' 
                 checks3='Improve work efficiency '
@@ -154,7 +154,7 @@ Thus a legal professional does not need to waste time doing routine contract che
                     </div>
                     <div className="col-6 my-3">
                     <Cards 
-                img='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61225a77e0bf2677a059d193_123.svg' h='Legal Professionals and Experts' 
+                img='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/613919addb794d4707700018_Group%20542.svg' h='Legal Professionals and Experts' 
                 checks1='Checks Contract faster' 
                 checks2='Reduce Contract Risks' 
                 checks3='Improve work efficiency '
@@ -167,7 +167,7 @@ Thus a legal professional does not need to waste time doing routine contract che
                     </div>
                     <div className="col-6 my-3">
                     <Cards 
-                img='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61225a77e0bf2677a059d193_123.svg' h='Legal Professionals and Experts' 
+                img='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61225a77bc5a47c081d3930a_Frame%2047495.svg' h='Legal Professionals and Experts' 
                 checks1='Checks Contract faster' 
                 checks2='Reduce Contract Risks' 
                 checks3='Improve work efficiency '
@@ -184,6 +184,44 @@ Thus a legal professional does not need to waste time doing routine contract che
 
                 </div>
                 
+                {/* <div className="row"> */}
+                    
+                    <div className="col-6 my-5 text-light">
+                    <h1>KEY </h1>
+                    <h1>TECHNOLOGICAL </h1>
+                    <h1> ADVANTAGE</h1>
+                    </div>
+
+                    <div className="col-6 my-5 text-light">
+                        <h3>Konsul AI is based on several key technologies</h3>
+                    
+                        <div className="row mx-2 my-5">
+                            <span className="d-flex ">
+                                <h5>01</h5>
+                                <p className="mx-2">Our own neural network language model trained on millions of legal documents</p>
+                                
+                            </span>
+                            <span className="d-flex ">
+                                <h5>02</h5>
+                                <p className="mx-2">Our own neural network language model trained on millions of legal documents</p>
+                                
+                            </span>
+                            <span className="d-flex ">
+                                <h5>03</h5>
+                                <p className="mx-2">Our own neural network language model trained on millions of legal documents</p>
+                                
+                            </span>
+
+
+                        </div>
+                        <hr />
+                    
+                    </div>
+
+
+
+                    
+                {/* </div> */}
                 
                 
                 </div>
