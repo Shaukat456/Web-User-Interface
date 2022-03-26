@@ -48,10 +48,12 @@ function Home() {
             </div>  
             <Fade bottom>
 
+            <Intro/>
             <KonsulAi/>
-            {/* <Intro/> */}
             </Fade>
+
             <Team/>
+
             <Footer/>
 
         </div>

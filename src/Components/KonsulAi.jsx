@@ -1,5 +1,6 @@
 import Cards from "./Cards";
 import Lefth from "./lefthed";
+import secH from './SecH'
 
 function KonsulAi() {
     return (  <>
@@ -7,8 +8,11 @@ function KonsulAi() {
         <div className="row kaaai">
             <div className="KAI ">
                 <h1 className="kaih text-light ">
-                KONSUL AI
-                </h1>
+                KONSUL 
+                </h1>  
+                <h1 className="tt"> </h1> 
+
+              
 
 
             </div>

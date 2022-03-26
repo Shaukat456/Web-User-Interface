@@ -150,7 +150,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 1%, rgba
     font-size: 5rem;
     line-height: 80%;
   }
-
+.bio{
+  font-family: Mont, sans-serif;
+  font-size: 1.3em;
+}
 
   .fontss{
     font-size: 1.6rem;
@@ -181,3 +184,16 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 1%, rgba
     font-family: Mont, sans-serif;
 
   }
+.tt{
+  
+  background: 'rgba(204, 204, 204, 0.5)'
+  
+}
+.mimg{
+  max-width: 20vw;
+  min-width: 5vw;
+  border-radius: 20px;
+}
+.tec{
+  background-color: #111e38 ;
+}

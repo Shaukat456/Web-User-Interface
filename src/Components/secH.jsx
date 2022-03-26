@@ -2,10 +2,10 @@ function secH(props) {
     return ( 
 
         <>
-        <h1 >
-            {props.wt}
-        </h1>
-        <h1 style={{background: 'rgba(204, 204, 204, 0.5)'}}>{props.tt}</h1>
+        <span className="d-flex text-light"> 
+            <p  style={{background: 'rgba(204, 204, 204, 0.5)' , stroke:'black'}} >{props.tt} </p>
+            <p >{props.wt} </p>
+        </span>
 
         </>
      );

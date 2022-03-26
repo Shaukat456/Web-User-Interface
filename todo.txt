@@ -11,3 +11,10 @@ Fonts
 break heading into 3 parts 
 navbar transparent 
 break line 
+
+
+
+HEADING transparent
+SECH COMPONENT
+TEAM COMPONENTS
+hover 

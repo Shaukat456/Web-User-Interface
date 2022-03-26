@@ -1,18 +1,38 @@
-import secH from "./secH";
+import secH from "./SecH";
+import Members from "./Members";
 
 function Team() {
 
     return (
 
         <>
-        <div className="row">
+
+        <div className="row text-light tec">
+        <h1 className="display-1">our team</h1>
           <div className="col text-light">
-            <secH wt='TEAM' tt='OUR ' />
           </div>
-          <div className="col">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam mollitia facere totam error, repellat, ipsa aperiam, excepturi sed est amet officiis. Expedita quis similique laudantium, exercitationem nihil, earum, minus neque sit atque doloribus et asperiores omnis dolores recusandae iste accusantium eos quas error nemo rem esse? Nemo corrupti ipsa suscipit sequi, doloremque asperiores esse libero repellendus ipsum ratione minima illo ducimus voluptate iure cum eum accusamus pariatur molestiae similique. Sint rem adipisci recusandae sed quos culpa nesciunt nostrum possimus vero accusamus laborum similique, voluptatibus molestiae quisquam odio, praesentium deleniti ad animi repellat numquam officiis, ea eum. Facilis repudiandae consequatur natus?</p>
+          <div className="col-6 ">
+         
+          <Members
+          img='https://uploads-ssl.webflow.com/61221299a58304715ac08aef/614b46d0ff249572b3c3681b_grigory-p-500.jpeg'
+          name='Grigory Gubarev'
+          des='СHIEF EXECUTIVE OFFICER'
+          bio='Grigory has over 8 years of experience managing teams that create Data Science-based software. Previously, he was in charge of an internal startup and a university research department, where he was responsible for business development, finance planning and sales support.'
+          />
+          <Members
+          
+          />
+          <Members/>
+          <Members/>
+
+
+
+
+
           </div>
         </div>
+
+
         </>
       );
 }
