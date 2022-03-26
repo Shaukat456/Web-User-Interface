@@ -10,3 +10,4 @@ CONTACT
 Fonts 
 break heading into 3 parts 
 navbar transparent 
+break line 

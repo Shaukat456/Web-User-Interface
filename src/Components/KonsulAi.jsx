@@ -1,4 +1,5 @@
 import Cards from "./Cards";
+import Lefth from "./lefthed";
 
 function KonsulAi() {
     return (  <>
@@ -35,7 +36,7 @@ Thus a legal professional does not need to waste time doing routine contract che
                     
                 
                 <div className="col-lg-6 ">
-                        <h3 className="text-center">70%</h3>
+                        <h3 className="text-center head2">70%</h3>
                        <h5> 
                            
                             The time spent on evaluating and negotiating contracts is reduced by 70%
@@ -46,7 +47,7 @@ Thus a legal professional does not need to waste time doing routine contract che
 
 
                 <div className="col-lg-6">
-                    <h3 className="text-center">5 min</h3>
+                    <h3 className="text-center head2">5 min</h3>
                     <h5>With Konsul AI, contract checking only takes 5 minutes</h5>
                 </div>
                 </div>
@@ -54,6 +55,7 @@ Thus a legal professional does not need to waste time doing routine contract che
 
                 <div className="cardds row-auto d-flex my-5  ">
                     <div className="col-6">
+                    <p className="my-5">BENEFITS</p>
 
 
                 <Cards
@@ -117,8 +119,11 @@ Thus a legal professional does not need to waste time doing routine contract che
                 <div className="row ">
 
                     
-                <div className="col text-light">
-                        <h1>KEY FEATURES</h1>
+                <div className="col heads  text-light">
+                        <Lefth 
+                        h1='KEY'
+                        h2='FEATURES'
+                        />
                 </div>
 
                 
@@ -184,44 +189,54 @@ Thus a legal professional does not need to waste time doing routine contract che
 
                 </div>
                 
-                {/* <div className="row"> */}
-                    
-                    <div className="col-6 my-5 text-light">
-                    <h1>KEY </h1>
-                    <h1>TECHNOLOGICAL </h1>
-                    <h1> ADVANTAGE</h1>
-                    </div>
-
-                    <div className="col-6 my-5 text-light">
+                <div className="kta d-flex my-5">
+                <div className="col-6 my-5 p-5 heads fontss text-light">
+                    <Lefth
+                        h1='KEY '
+                        h2='TECHNOLOGICAL'
+                        h3='ADVANTAGES'
+                    />
+                </div>
+                    <div className="col-6 my-5 p-5 text-light  ">
                         <h3>Konsul AI is based on several key technologies</h3>
                     
-                        <div className="row mx-2 my-5">
-                            <span className="d-flex ">
-                                <h5>01</h5>
+                        <div className="row mx-1 my-5  w-75  ">
+                            <span className="d-flex fontss  " style={{alignItems:'center'}} >
+                                <p className="head2 fontss num">01</p>
                                 <p className="mx-2">Our own neural network language model trained on millions of legal documents</p>
                                 
                             </span>
-                            <span className="d-flex ">
-                                <h5>02</h5>
-                                <p className="mx-2">Our own neural network language model trained on millions of legal documents</p>
+                          
+                            <span className="d-flex fontss " style={{alignItems:'center'}}>
+                                <p className="head2 fontss num blue " >02</p>
+                                <p className="mx-2">Heuristic methods developed by legal experts to improve quality of contract checking</p>
                                 
                             </span>
-                            <span className="d-flex ">
-                                <h5>03</h5>
-                                <p className="mx-2">Our own neural network language model trained on millions of legal documents</p>
+                          
+                            <span className="d-flex fontss  " style={{alignItems:'center'}}>
+                                <p className="head2 fontss num morblue">03</p>
+                                <p className="mx-2">Deep Learning classification model based on new Transformer architecture</p>
                                 
                             </span>
+                          
+                           
 
 
                         </div>
-                        <hr />
-                    
+
+                        <div className="linebreak my-5" >
+                            break
+                        </div>
+
+
+
+                        <p className="heads py-5 para pr-5 mr-5">Konsul AI is a complex system, which combines state-of-the-art deep learning technologies with heuristic methods, developed precisely to cope with tasks in the LegalTech domain</p>
                     </div>
 
 
 
                     
-                {/* </div> */}
+                </div>
                 
                 
                 </div>

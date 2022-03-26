@@ -3,14 +3,16 @@ function Navbar() {
          <>
 
         <div className="row  ">
-            <div className="col-12  d-flex ">
+            <div className="col-12  bg-dark d-flex ">
 
 
-            <div className="col bg-light p-3 ">
-            <nav className="navbar navbar-light bg-light">
+            <div className="col bg-dark p-2 ">
+            <nav className="navbar navbar-light ">
   <a className="navbar-brand" href="#">
     {/* <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""/> */}
-    HYPERDEV SOLUTIONS LOGO
+    <figure>
+      <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612222b86eeedd5d9689d25d_Logo_YGGY_black%201.svg" alt="" />
+    </figure>
   </a>
 </nav>
             </div>

@@ -124,10 +124,60 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(
     cursor: grab;
   }
   .foote{
+    /* background: rgb(2,0,36); */
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 1%, rgba(9,9,121,1) 93%);
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
   }
 
   .navbar{
     
+  }
+
+  .heads{
+    font-family: Arial,sans-serif;
+    /* font-size: 2rem; */
+    /* text-decoration: dotted; */
+    /* line-height: 600px; */
+    /* font-size: ; */
+  }
+  .head2{
+    color: #42d5b8;
+  
+  }
+  
+  .head1 h2,.head2 h2 ,.head3 h2{
+    font-size: 5rem;
+    line-height: 80%;
+  }
+
+
+  .fontss{
+    font-size: 1.6rem;
+    font-family: Mont, sans-serif; 
+  }
+  .blue{
+    color: #27b4dc;
+  }
+
+  .morblue{
+    color: #2070e3;
+  }
+
+
+  .num{
+    font-size: 4rem;
+  }
+
+  .kta{
+    background-color: #0c1e3d;
+  }
+  .def{
+    font-family: Mont, sans-serif;
+    margin-right: 100px;
+  }
+  .para{
+    font-size: 2.08rem;
+    font-family: Mont, sans-serif;
+
   }
