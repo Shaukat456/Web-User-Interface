@@ -2,7 +2,7 @@ function Members(props) {
     return ( 
 <>
 
-<div className="  d-flex">
+<div className=" member d-flex">
 
           <div className="col">
 
@@ -13,8 +13,10 @@ function Members(props) {
 
         <div className="d-flex flex-column mx-3">
 
-        <h2 className="head1 ">{props.name}</h2>
-        <h2 className="head2">{props.des}</h2>
+        <h2 className="head1 nam ">{props.name}  
+        
+         </h2>
+        <h2 className="head2 des my-3">{props.des}</h2>
         <hr />
 
         <div className="bio">

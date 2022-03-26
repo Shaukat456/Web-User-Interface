@@ -6,11 +6,13 @@ function KonsulAi() {
     return (  <>
     
         <div className="row kaaai">
-            <div className="KAI ">
+            <div className="KAI d-flex ">
                 <h1 className="kaih text-light ">
                 KONSUL 
+                {/* <h1 className="white-stroke">AI</h1> */}
                 </h1>  
-                <h1 className="tt"> </h1> 
+
+                
 
               
 

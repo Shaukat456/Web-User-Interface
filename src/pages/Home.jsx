@@ -16,19 +16,30 @@ function Home() {
 
             <div className="hcomp  py-5">
             <Slide left>
-                <div className="text-light d-flex py-5">
-                    <div className="col-6">
+                <div className="text-light d-lg-flex py-5">
+                    <div className="col-6 d-lg-flex ">
                     
-                    <h1 className="heroh">WORK BETTER  </h1>
-                    <h1 className="heroh">WITH  
+                    <h1 className="heroh ">WORK   </h1>
+                    <h1 className="heroh white_stroke mx-5 w-100 " id="better"> BETTER  </h1>
+                    
+                    {
+                        window.addEventListener("scroll",()=>{
+                            const better = document.querySelector("#better")
+                 let scrollPosition = window.pageXOffset;
+
+             better.style.transform = `translateX(${scrollPosition * 0.5}px)`
+                        })
+                    }
+                    
+                    {/* <h1 className="heroh ">WITH    */}
                 {/* Arrow here for parallax */}
-                     </h1>
+                     {/* </h1> */}
                      
 
                     </div>
                     {/* <hr /> */}
-                    <div className="col-6 tec">
-                    <h1 className="heroh">YGGY TECHNOLOGIES  </h1>
+                    <div className="col-6 ygg my-5 py-5">
+                    <h1 className="heroh bg-none">YGGY TECHNOLOGIES  </h1>
                     </div>
                         
                 </div>

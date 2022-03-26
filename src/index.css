@@ -10,8 +10,10 @@
 body{
     /* background-color: #091a36;; */
     /* background: rgb(2,0,36); */
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 93%);
+/* background: linear-gradient(90deg, rgba(2,20,36,1) 0%, rgba(29,0,121,1) 33%, rgba(0,212,255,1) 93%); */
 /* font-family: Mont, sans-serif; */
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 65%, rgba(0,212,255,1) 100%);
 
      
 }
@@ -26,6 +28,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(
 }
 .heroh{
     font-size: 4rem;
+    font-weight: 400;
 }
 .tec{
   position: relative;
@@ -130,8 +133,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 1%, rgba
 /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
   }
 
-  .navbar{
-    
+  .nav-link  {
+    /* font-family: ; */
+    font-family: Mont, sans-serif; 
+    color: white;
+    font-weight: 600;
   }
 
   .heads{
@@ -196,4 +202,26 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 1%, rgba
 }
 .tec{
   background-color: #111e38 ;
+}
+
+.white_stroke{
+  -webkit-text-stroke:1px #A3A6B1;
+  color: transparent;
+}
+.teamm h1{
+    font-size: 17em;
+}
+.member{
+  /* font-family: ; */
+  font-family:' Mont', sans-serif;
+  font-weight: 200;
+}
+.des{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.nam{
+  font-weight: 400;
+
+  /* font-size: ; */
 }
