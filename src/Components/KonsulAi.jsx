@@ -3,7 +3,7 @@ import Cards from "./Cards";
 function KonsulAi() {
     return (  <>
     
-        <div className="row">
+        <div className="row kaaai">
             <div className="KAI ">
                 <h1 className="kaih text-light ">
                 KONSUL AI

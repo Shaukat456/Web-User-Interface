@@ -8,7 +8,11 @@
     font-size: 8rem;
 }
 body{
-    background-color: #091a36;;
+    /* background-color: #091a36;; */
+    /* background: rgb(2,0,36); */
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 93%);
+/* font-family: Mont, sans-serif; */
+
      
 }
 
@@ -105,6 +109,9 @@ body{
     background-color: #0b1830 ;
     
   }
+  .kaaai{
+    background-color: #111e38 ;
+  }
 
   .cardds{
     overflow-x: scroll;
@@ -119,4 +126,8 @@ body{
   .foote{
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+
+  .navbar{
+    
   }
