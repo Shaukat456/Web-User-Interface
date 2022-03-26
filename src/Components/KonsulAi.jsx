@@ -18,7 +18,7 @@ function KonsulAi() {
            <h1>DESIGN</h1>
 
 
-           <p>SEE HOW IT WORKS</p>
+           <Lefth h1='SEE HOW ' h2='IT WORKS' />
             </div>
             
             <div className="col-6 text-light display-4 py-5">
@@ -196,6 +196,7 @@ Thus a legal professional does not need to waste time doing routine contract che
                         h2='TECHNOLOGICAL'
                         h3='ADVANTAGES'
                     />
+
                 </div>
                     <div className="col-6 my-5 p-5 text-light  ">
                         <h3>Konsul AI is based on several key technologies</h3>

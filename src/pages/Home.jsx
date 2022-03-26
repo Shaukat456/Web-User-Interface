@@ -4,6 +4,7 @@ import {Fade, Slide} from 'react-reveal'
 import '../index.css'
 import KonsulAi from "../Components/KonsulAi";
 import Footer from "../Components/Footer";
+import Team from "../Components/Team";
 
 
 
@@ -50,6 +51,7 @@ function Home() {
             <KonsulAi/>
             {/* <Intro/> */}
             </Fade>
+            <Team/>
             <Footer/>
 
         </div>
