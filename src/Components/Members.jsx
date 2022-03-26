@@ -1,6 +1,10 @@
+import {Fade, Slide} from 'react-reveal'
+
+
 function Members(props) {
     return ( 
 <>
+<Fade bottom>
 
 <div className=" member d-flex">
 
@@ -25,6 +29,7 @@ function Members(props) {
         </div>
 
           </div>
+</Fade>
 
 </>
 

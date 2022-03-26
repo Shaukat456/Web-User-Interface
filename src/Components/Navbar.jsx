@@ -1,11 +1,15 @@
+import {Fade } from'react-reveal'
+
 function Navbar() {
     return (
          <>
 
         <div className="row  ">
+          <Fade bottom>
+
             <div className="col-12  bg-none d-flex  ">
 
-
+          
             <div className="col bg-none  p-2 ">
             <nav className="navbar navbar-light ">
   <a className="navbar-brand" href="#">
@@ -54,6 +58,8 @@ function Navbar() {
             </div>
 
             </div>
+
+            </Fade>
 
         </div>
     

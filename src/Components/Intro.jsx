@@ -6,8 +6,8 @@ function Intro() {
         <>
         <div className="row">
             <div className="intro p-5">
-            <Slide bottom>
 
+            <Fade bottom>
 
             <p className="p-5">
             We develop intelligent solutions based on our
@@ -21,7 +21,7 @@ and Software Engineering
 
 .
             </p>
-            </Slide>
+            </Fade>
         </div>
 
             </div>

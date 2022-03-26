@@ -19,17 +19,22 @@ function Home() {
                 <div className="text-light d-lg-flex py-5">
                     <div className="col-6 d-lg-flex ">
                     
-                    <h1 className="heroh ">WORK   </h1>
-                    <h1 className="heroh white_stroke mx-5 w-100 " id="better"> BETTER  </h1>
+                    <h1 className="heroh " id='work'>WORK   </h1>
+                    <h1 className="heroh white_stroke mx-5 w-100 " id='better'> BETTER  </h1>
                     
-                    {
+                    {/* {
                         window.addEventListener("scroll",()=>{
                             const better = document.querySelector("#better")
-                 let scrollPosition = window.pageXOffset;
+                            const work = document.querySelector("#work")
+                            const yg = document.querySelector("#yg")
+                            let scrollPosition = window.pageYOffset;
 
-             better.style.transform = `translateX(${scrollPosition * 0.5}px)`
+             better.style.transform = `translateX(${scrollPosition * -0.5}px)`
+             work.style.transform = `translateX(${scrollPosition * -0.5}px)`
+             yg.style.transform = `translateX(${scrollPosition * 0.5}px)`
+
                         })
-                    }
+                    } */}
                     
                     {/* <h1 className="heroh ">WITH    */}
                 {/* Arrow here for parallax */}
@@ -39,7 +44,7 @@ function Home() {
                     </div>
                     {/* <hr /> */}
                     <div className="col-6 ygg my-5 py-5">
-                    <h1 className="heroh bg-none">YGGY TECHNOLOGIES  </h1>
+                    <h1 className="heroh bg-none" id='yg'>YGGY TECHNOLOGIES  </h1>
                     </div>
                         
                 </div>
@@ -65,7 +70,7 @@ function Home() {
 
             <Team/>
 
-            <Footer/>
+            {/* <Footer/> */}
 
         </div>
     

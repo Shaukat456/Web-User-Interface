@@ -1,5 +1,7 @@
 import Members from "./Members";
+import Platform from "./Platform";
 import Sech from "./SecH";
+import {Fade, Slide} from 'react-reveal'
 
 function Team() {
 
@@ -46,7 +48,7 @@ function Team() {
 
           </div>
         </div>
-
+<Platform/>
 
         </>
       );
