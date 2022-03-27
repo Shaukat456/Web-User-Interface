@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Web-User-Interface/static/css/main.0a5f75af.css",
+    "main.js": "/Web-User-Interface/static/js/main.6cd11b9b.js",
+    "index.html": "/Web-User-Interface/index.html",
+    "main.0a5f75af.css.map": "/Web-User-Interface/static/css/main.0a5f75af.css.map",
+    "main.6cd11b9b.js.map": "/Web-User-Interface/static/js/main.6cd11b9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a5f75af.css",
+    "static/js/main.6cd11b9b.js"
+  ]
+}
