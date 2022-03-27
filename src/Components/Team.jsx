@@ -2,6 +2,8 @@ import Members from "./Members";
 import Platform from "./Platform";
 import Sech from "./SecH";
 import {Fade, Slide} from 'react-reveal'
+import Contact from "./Contact";
+import Footer from './Footer'
 
 function Team() {
 
@@ -36,18 +38,9 @@ function Team() {
           bio='Mikhail has 10 years of experience in business development in large technology companies, including managing strategic IT projects, building sales and marketing teams. He is an expert in project efficiency evaluation and market demand assessment.'
           
           />
-         
-          
-          
-          
-          
-
-
-
-
-
-          </div>
         </div>
+        </div>
+
 <Platform/>
 
         </>

@@ -1,3 +1,5 @@
+import Contact from "./Contact";
+
 function  Platform() {
     return (  <>
     <div className="row text-light tec">
@@ -24,7 +26,16 @@ The Platform is production-ready, scalable and can be modified to cope with cust
     <h3>We use and improve advanced technologies and frameworks in order to create our solutions — both back and frontend, as well as the intelligent part.</h3>
 </div>
      </div>
+     
+     <div className="col">
+
+   <Contact/>
+     
+     
+     </div>
+   
    </div>
+
 
     
     </>

@@ -5,6 +5,7 @@ import '../index.css'
 import KonsulAi from "../Components/KonsulAi";
 import Footer from "../Components/Footer";
 import Team from "../Components/Team";
+import Contact from "../Components/Contact";
 
 
 
@@ -43,8 +44,8 @@ function Home() {
 
                     </div>
                     {/* <hr /> */}
-                    <div className="col-6 ygg my-5 py-5">
-                    <h1 className="heroh bg-none" id='yg'>YGGY TECHNOLOGIES  </h1>
+                    <div className="col ygg my-5 py-5">
+                    <h1 className="heroh bg-none my-5"  id='yg'>YGGY TECHNOLOGIES  </h1>
                     </div>
                         
                 </div>
@@ -62,18 +63,14 @@ function Home() {
 </label>
 
             </div>  
-            <Fade bottom>
-
+      
             <Intro/>
             <KonsulAi/>
-            </Fade>
-
+            
             <Team/>
-
-            {/* <Footer/> */}
+            
 
         </div>
-    
     </> 
     
     
