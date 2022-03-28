@@ -20,3 +20,6 @@ TEAM COMPONENTS
 hover 
 
 PARALLAX
+
+
+bg picture kta kfa arrow designs line wrap 

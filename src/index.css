@@ -5,12 +5,12 @@ html{
 .hcomp{
     border: 2px solid rgb(185, 185, 185);
     /* font-family: 'mon'; */
-    font-size: 4.6em;
+    /* font-size: 3.5em; */
     line-height: 20px;
     font-weight: 500;
 }
 .hcomp h1{
-    font-size: 8rem;
+    font-size: 7rem;
 }
 body{
     /* background-color: #091a36;; */
@@ -21,7 +21,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 65%, rgba(
 /* overflow: hidden; */
 /* font-family: 'Mont', sans-serif; */
 font-family: 'Mont', sans-serif;
+overflow-x: hidden;
      
+}
+.plaf{
+  overflow: hidden;
 }
 .ygg {
   /* font-family: ; */
@@ -191,6 +195,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 1%, rgba
   }
 
   .kta{
+    background: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61fb8d2a8fa79ac3920c68a3_Frame-dw.jpg') ;
     background-color: #0c1e3d;
   }
   .def{
@@ -231,6 +236,15 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 1%, rgba
 .des{
   font-size: 1.1rem;
   font-weight: 600;
+}
+.heroh::after{
+  content: '';
+  position: absolute;
+  background: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61268f6d4076c165dce4c16f_green.svg');
+  /* align-items: flex-end; */
+  height: 200px;
+  width: auto;
+  z-index: 1;
 }
 .nam{
   font-weight: 400;

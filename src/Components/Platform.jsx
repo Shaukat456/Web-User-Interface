@@ -7,7 +7,7 @@ function  Platform() {
      <div className="col text-light d-flex teamm">
 
          <h1 className=" ">YGGY  </h1>
-       <h1 className="white_stroke mx-2 ">PLATFORM</h1>
+       <h1 className="white_stroke mx-2 plaf ">PLATFORM</h1>
      </div>
 
      <div className="col col-6 teamm">

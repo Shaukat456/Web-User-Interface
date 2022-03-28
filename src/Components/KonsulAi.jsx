@@ -195,7 +195,7 @@ Thus a legal professional does not need to waste time doing routine contract che
 
                 </div>
                 
-                <div className="kta d-flex my-5">
+                <div className="kta d-flex  my-5">
                 <div className="col-6 my-5 p-5 heads fontss text-light">
                     <Lefth
                         h1='KEY '

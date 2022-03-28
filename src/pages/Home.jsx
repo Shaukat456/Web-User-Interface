@@ -22,28 +22,28 @@ function Home() {
                 <span className="d-flex">
                   <h1>WORK</h1>
                      <h1 className="offset-1 white_stroke"> BETTER </h1>
+                     {/* <figure > */}
+                         {/* <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61268f6d4076c165dce4c16f_green.svg" alt="" className="offset-3" /> */}
+                     {/* </figure> */}
 
                     {/* <div className="col">
                         
-            <figure>
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61268f6d4076c165dce4c16f_green.svg" alt="" />
-            </figure>
                     </div> */}
                     
                     </span> 
                     
-                <span className="d-flex col">
+                <span className="d-flex col ">
                   <h1>WITH</h1>
                   <figure>
-                      <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61222041ae7b92522ff44f99_arrow%20top%20offer.svg"  alt="" />
+                      <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61222041ae7b92522ff44f99_arrow%20top%20offer.svg" className="mx-3" alt="" />
                   </figure>
-                     <h1 className="mx-5 ">YGGY</h1>
+                     <h1 className="col  mx-5" >YGGY</h1>
                     
                     </span> 
 
-<span className="d-flex offset-5 ">
+<span className="d-flex col offset-4  justify-content-flex-end "  >
 
-                  <h1 className=" mx-5">TECHNOLOGIES</h1>
+                  <h1 className="  col offset-2">TECHNOLOGIES</h1>
 
                     
                     </span> 
@@ -96,7 +96,7 @@ function Home() {
 
             <div className="hcomp py-5 ">
 
-            <label class="switch">
+            <label class="switch" placeholder="DARK MODE" >DARK MODE 
   <input type="checkbox"/>
   <span class="slider round"></span>
 
