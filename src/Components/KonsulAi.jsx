@@ -6,7 +6,7 @@ function KonsulAi() {
     return (  <>
     
         <div className="row kaaai">
-            <div className="KAI d-flex ">
+            <div className="KAI d-lg-flex ">
                 <h1 className="kaih text-light ">
                 KONSUL  AI
                 {/* <h2 className="white-stroke">AI</h2> */}
@@ -18,7 +18,7 @@ function KonsulAi() {
 
 
             </div>
-            <div className="row-cols-2 d-flex text-light my-5 ">
+            <div className="row-cols-2 d-lg-flex text-light my-5 ">
 
             <div className="col-6 my-5">
            <h1>DESIGN</h1>
@@ -38,7 +38,7 @@ Thus a legal professional does not need to waste time doing routine contract che
 
                 <hr />
 
-                <div className="d-flex">
+                <div className="d-lg-flex">
                     
                 
                 <div className="col-lg-6 brd">
@@ -195,7 +195,7 @@ Thus a legal professional does not need to waste time doing routine contract che
 
                 </div>
                 
-                <div className="kta d-flex  my-5">
+                <div className="kta d-lg-flex  my-5">
                 <div className="col-6 my-5 p-5 heads fontss text-light">
                     <Lefth
                         h1='KEY '
@@ -208,19 +208,19 @@ Thus a legal professional does not need to waste time doing routine contract che
                         <h3>Konsul AI is based on several key technologies</h3>
                     
                         <div className="row mx-1 my-5  w-75  ">
-                            <span className="d-flex fontss  " style={{alignItems:'center'}} >
+                            <span className="d-lg-flex fontss  " style={{alignItems:'center'}} >
                                 <p className="head2 fontss num">01</p>
                                 <p className="mx-2">Our own neural network language model trained on millions of legal documents</p>
                                 
                             </span>
                           
-                            <span className="d-flex fontss " style={{alignItems:'center'}}>
+                            <span className="d-lg-flex fontss " style={{alignItems:'center'}}>
                                 <p className="head2 fontss num blue " >02</p>
                                 <p className="mx-2">Heuristic methods developed by legal experts to improve quality of contract checking</p>
                                 
                             </span>
                           
-                            <span className="d-flex fontss  " style={{alignItems:'center'}}>
+                            <span className="d-lg-flex fontss  " style={{alignItems:'center'}}>
                                 <p className="head2 fontss num morblue">03</p>
                                 <p className="mx-2">Deep Learning classification model based on new Transformer architecture</p>
                                 
