@@ -17,11 +17,50 @@ function Home() {
 
             <div className="hcomp  py-5">
             <Slide left>
-                <div className="text-light d-lg-flex py-5">
-                    <div className="col-6 d-lg-flex ">
+
+                <div className="div heroh text-light">
+                <span className="d-flex">
+                  <h1>WORK</h1>
+                     <h1 className="offset-1 white_stroke"> BETTER </h1>
+
+                    {/* <div className="col">
+                        
+            <figure>
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61268f6d4076c165dce4c16f_green.svg" alt="" />
+            </figure>
+                    </div> */}
                     
-                    <h1 className="heroh " id='work'>WORK   </h1>
-                    <h1 className="heroh white_stroke mx-5 w-100 " id='better'> BETTER  </h1>
+                    </span> 
+                    
+                <span className="d-flex col">
+                  <h1>WITH</h1>
+                  <figure>
+                      <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61222041ae7b92522ff44f99_arrow%20top%20offer.svg"  alt="" />
+                  </figure>
+                     <h1 className="mx-5 ">YGGY</h1>
+                    
+                    </span> 
+
+<span className="d-flex offset-5 ">
+
+                  <h1 className=" mx-5">TECHNOLOGIES</h1>
+
+                    
+                    </span> 
+
+                    
+                    
+                </div>
+
+
+
+                {/* <div className="text-light d-lg-flex py-5"> */}
+                    {/* <div className="col-6 d-lg-flex "> */}
+                    
+
+
+                    {/* <h1 className="heroh " id='work'>WORK   </h1>
+                    <h1 className="heroh white_stroke mx-5 w-100 " id='better'> BETTER  </h1> */}
                     
                     {/* {
                         window.addEventListener("scroll",()=>{
@@ -42,13 +81,14 @@ function Home() {
                      {/* </h1> */}
                      
 
-                    </div>
+                    {/* </div> */}
                     {/* <hr /> */}
-                    <div className="col ygg my-5 py-5">
+
+                    {/* <div className="col ygg my-5 py-5">
                     <h1 className="heroh bg-none my-5"  id='yg'>YGGY TECHNOLOGIES  </h1>
-                    </div>
+                    </div> */}
                         
-                </div>
+                {/* </div> */}
 
 
             </Slide>
