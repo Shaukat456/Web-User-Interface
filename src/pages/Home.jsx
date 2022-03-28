@@ -9,8 +9,6 @@ import Contact from "../Components/Contact";
 import Button from "../Components/Button";
 
 
-
-
 function Home() {
     return ( <>
         <div className="container-fluid ">
@@ -19,6 +17,7 @@ function Home() {
             <div className="hcomp  py-5">
             <Slide left>
 
+                
                 <div className="div heroh text-light">
                 <span className="d-flex">
                   <h1>WORK</h1>
@@ -112,5 +111,6 @@ function Home() {
     
     );
 }
+
 
 export default Home;

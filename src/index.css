@@ -62,8 +62,9 @@ overflow-x: hidden;
 
 }
 .brd{
-  border-top: 2px solid wheat;
-  width: 50px;
+  /* width: 20px; */
+  border-top: 1px solid wheat;
+  /* width: 1px; */
 }
 
 .kaq{

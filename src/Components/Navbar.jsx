@@ -7,7 +7,7 @@ function Navbar() {
         <div className="row  ">
           <Fade bottom>
 
-            <div className="col-12  bg-none d-flex  ">
+            <div className="col bg-none d-flex  ">
 
           
             <div className="col bg-none  p-2 ">
