@@ -1,10 +1,11 @@
 function Cards(props) {
     return (  <>
-            <div className="d-flex flex-column w-100 text-light mx-2 p-5 card">
+            <div className="d-lg-flex  flex-column w-100 text-light mx-2 p-5 card">
                     <figure>
                         <img src={props.img} alt="img" />
                         
                     </figure>
+                    
                         <h4>{props.h}</h4>
                         {/* <span>  */}
                           <span className="d-flex"> 
