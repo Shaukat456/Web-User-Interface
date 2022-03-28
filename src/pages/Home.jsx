@@ -6,6 +6,7 @@ import KonsulAi from "../Components/KonsulAi";
 import Footer from "../Components/Footer";
 import Team from "../Components/Team";
 import Contact from "../Components/Contact";
+import Button from "../Components/Button";
 
 
 
@@ -95,12 +96,7 @@ function Home() {
             </div>
 
             <div className="hcomp py-5 ">
-
-            <label class="switch" placeholder="DARK MODE" >DARK MODE 
-  <input type="checkbox"/>
-  <span class="slider round"></span>
-
-</label>
+            <Button/>
 
             </div>  
       

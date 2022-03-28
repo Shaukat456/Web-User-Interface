@@ -8,8 +8,8 @@ function KonsulAi() {
         <div className="row kaaai">
             <div className="KAI d-flex ">
                 <h1 className="kaih text-light ">
-                KONSUL 
-                {/* <h1 className="white-stroke">AI</h1> */}
+                KONSUL  AI
+                {/* <h2 className="white-stroke">AI</h2> */}
                 </h1>  
 
                 
@@ -27,7 +27,7 @@ function KonsulAi() {
            <Lefth h1='SEE HOW ' h2='IT WORKS' />
             </div>
             
-            <div className="col-6 text-light display-4 py-5">
+            <div className="col-6 text-light kaq py-5">
                 <p>Konsul is an AI-based software for contract analysis. It checks the content of a contract and minimizes legal risks by highlighting negative conditions, regulatory inconsistencies and counterparty edits.
             <br />
             <br />
@@ -41,8 +41,8 @@ Thus a legal professional does not need to waste time doing routine contract che
                 <div className="d-flex">
                     
                 
-                <div className="col-lg-6 ">
-                        <h3 className="text-center head2">70%</h3>
+                <div className="col-lg-6 brd">
+                        <h3 className="text-center head2 " id='sev'>70%</h3>
                        <h5> 
                            
                             The time spent on evaluating and negotiating contracts is reduced by 70%
@@ -52,8 +52,8 @@ Thus a legal professional does not need to waste time doing routine contract che
                     
 
 
-                <div className="col-lg-6">
-                    <h3 className="text-center head2">5 min</h3>
+                <div className="col-lg-6 brd">
+                    <h3 className="text-center head2" id='fiv'>5 min</h3>
                     <h5>With Konsul AI, contract checking only takes 5 minutes</h5>
                 </div>
                 </div>
