@@ -11,13 +11,13 @@ import Button from "../Components/Button";
 
 function Home() {
     return ( <>
-        <div className="container-fluid ">
+        <div className="container-fluid   ">
             <Navbar/>
 
-            <div className="hcomp  py-5">
+            <div className="hcomp mx-4 py-5">
             <Slide left>
 
-                
+
                 <div className="div heroh text-light">
                 <span className="d-flex">
                   <h1>WORK</h1>
@@ -37,21 +37,16 @@ function Home() {
                   <figure>
                       <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61222041ae7b92522ff44f99_arrow%20top%20offer.svg" className="mx-3" alt="" />
                   </figure>
-                     <h1 className="col  mx-5" >YGGY</h1>
+                     <h1 className="col  mx-4" >YGGY</h1>
                     
                     </span> 
 
-<span className="d-flex col offset-4  justify-content-flex-end "  >
+<span className="d-flex col offset-5  justify-content-flex-end "  >
 
-                  <h1 className="  col offset-2">TECHNOLOGIES</h1>
-
-                    
+                  <h1 className="  col offset-1 ">TECHNOLOGIES</h1>
                     </span> 
-
-                    
-                    
+                        
                 </div>
-
 
 
                 {/* <div className="text-light d-lg-flex py-5"> */}
@@ -94,9 +89,11 @@ function Home() {
             </Slide>
             </div>
 
-            <div className="hcomp py-5 ">
-            <Button/>
+            <div className="hcomp mx-4 py-5 ">
+<div className="herobtttn py-5 my-4">
+<Button  />
 
+</div>
             </div>  
       
             <Intro/>

@@ -4,13 +4,13 @@ function Navbar() {
     return (
          <>
 
-        <div className="row  ">
+        <div className="row py-2 ">
           <Fade bottom>
 
             <div className="col bg-none d-flex  ">
-
+            
           
-            <div className="col bg-none  p-2 ">
+            <div className="col bg-none  p-1 ">
             <nav className="navbar navbar-light ">
   <a className="navbar-brand" href="#">
     {/* <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""/> */}
@@ -28,14 +28,14 @@ function Navbar() {
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav text-light">
-      <li class="nav-item active text-light  text-capitalize">
+      <li class="nav-item  text-light  text-capitalize">
         <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link text-light mx-2" href="#">Konsule Ai</a>
+      <li class="nav-item mx-2 ">
+        <a class="nav-link text-light " href="#">Konsule Ai</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link text-light mx-2" href="#">YGG PLAtFORM</a>
+      <li class="nav-item mx-2">
+        <a class="nav-link text-light " href="#">YGG PLAtFORM</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-light mx-2" href="#">MODULES</a>
@@ -50,7 +50,7 @@ function Navbar() {
   </div>
  {/* <button> */}
  <label class="switch">
-  <input type="checkbox"/>
+  <input type="checkbox"/> 
   <span class="slider round"></span>
 </label>
  {/* </button> */}

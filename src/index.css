@@ -7,13 +7,14 @@ html{
     border: 2px solid rgb(185, 185, 185);
     /* font-family: 'mon'; */
     /* font-size: 3.5em; */
-    line-height: 20px;
+    line-height: 10px;
     font-weight: 500;
 }
 
 
 .hcomp h1{
-    font-size: 7rem;
+    font-size: 7.1rem;
+    line-height: 89px;
 }
 body{
   transition: all .7s ease-in ;
